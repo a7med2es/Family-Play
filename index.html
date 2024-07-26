@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عجلة الحظ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wheel-container">
+            <div id="wheel" class="wheel">
+                <div class="segment" data-name="احمد" data-image="photo_2024-07-26_16-38-02.jpg" style="background-image: url('photo_2024-07-26_16-38-02.jpg');">احمد</div>
+                <div class="segment" data-name="ماما" data-image="photo_2024-07-26_16-36-56.jpg" style="background-image: url('photo_2024-07-26_16-36-56.jpg');">ماما</div>
+                <div class="segment" data-name="يوسف" data-image="photo_2024-07-26_16-37-01.jpg" style="background-image: url('photo_2024-07-26_16-37-01.jpg');">يوسف</div>
+                <div class="segment" data-name="لولة" data-image="photo_2024-07-26_16-36-59.jpg" style="background-image: url('photo_2024-07-26_16-36-59.jpg');">لولة</div>
+                <div class="segment" data-name="عبودي" data-image="photo_2024-07-26_16-37-03.jpg" style="background-image: url('photo_2024-07-26_16-37-03.jpg');">عبودي</div>
+                <div class="segment" data-name="ابتسام" data-image="photo_2024-07-26_16-40-02.jpg" style="background-image: url('photo_2024-07-26_16-40-02.jpg');">ابتسام</div>
+            </div>
+        </div>
+        <button id="spinButton">دور</button>
+        <button id="resetButton" class="hidden">إعادة التدوير</button>
+        <div id="result" class="result hidden">
+            <img id="resultImage" src="" alt="نتيجة العجلة">
+            <p id="resultName"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
